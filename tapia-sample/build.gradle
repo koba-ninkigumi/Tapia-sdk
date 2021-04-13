@@ -25,6 +25,7 @@ allprojects {
         maven { url 'https://csspeechstorage.blob.core.windows.net/maven/' }
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
         maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/releases/'}
         maven {
             url "http://tos.mjirobotics.co.jp:8081/artifactory/tapia-sdk"
             credentials {
